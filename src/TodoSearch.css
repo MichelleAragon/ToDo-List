@@ -1,0 +1,26 @@
+.TodoSearch {
+    background: #F9FBFC;
+    border-radius: 10px;
+    border: 2px solid #1E1E1F;
+    margin: 0 24px;
+    height: 48px;
+    width: calc(100% - 62px);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    color: #1E1E1F;
+    box-shadow: 2px 5px 20px #A5A5A5;
+    
+  }
+  
+  .TodoSearch::placeholder {
+    color: #A5A5A5;
+    font-family: 'Roboto Flex';
+    font-weight: 400;
+  }
+  
+  .TodoSearch:focus {
+    outline-color: #FFB6C1;
+    box-shadow: 2px 5px 25px #FFB6C1;
+  }

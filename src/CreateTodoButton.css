@@ -1,0 +1,119 @@
+.CreateTodoButton {
+    background-color: #FFB6C1;
+    box-shadow: 0px 5px 25px #FFB6C1;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+  
+    transform: rotate(0);
+    transition: .3s ease;
+  }
+  
+  .CreateTodoButton:hover {
+    transform: rotate(224deg);
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    width: 35vw;
+    height: 25vh;
+    background: #f8e0e3;
+    border-radius: 30px;
+    margin-right: 0;
+    margin-left: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;  
+    margin-top: 24px;
+    box-shadow: 0px 0px 25px #f8e0e3;
+    padding-bottom: 12px;
+    
+  }
+
+.AddNewTask {
+    background: #f8eced;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    
+    
+  }
+
+.NewTask {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 12px;
+  background: inherit;
+  /* border-radius: 50px; */
+  width: 30vw;
+  
+}
+
+.NewTask:focus {
+  outline: none;
+  
+  
+}
+
+.LabelAdd {
+  margin-left: 0;
+  
+}
+
+.ButtonSave {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 12px;
+  background: #f8eced;
+  border-radius: 50px;
+  width: 50px;  
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+.ButtonSave:hover,
+.ButtonSave:active {
+  background-color: #42fae0;
+} 
+.ButtonClose{
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 12px;
+  background: #f8eced;
+  border-radius: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .modal-container {
+    width: 40%;
+    text-align: center;
+    }
+
+   .AddNewTask {
+   background-color: #f8e0e3;
+  }
+}

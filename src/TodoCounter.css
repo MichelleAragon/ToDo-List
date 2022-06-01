@@ -1,0 +1,13 @@
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    padding: 48px;
+    margin: 0;
+    color: #1E1E1F;
+}
+
+
+/* Ex. Font-family */
+/* font-family: 'Gruppo', cursive; */
+/* font-family: 'Roboto', sans-serif; */
