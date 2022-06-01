@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { TodoCounter } from "./TodoCounter";
-import { TodoSearch } from "./TodoSearch";
-import { TodoItem } from "./TodoItem";
-import { TodoList } from "./TodoList";
-import { CreateTodoButton } from "./CreateTodoButton"
+import { TodoCounter } from "../TodoCounter";
+import { TodoSearch } from "../TodoSearch";
+import { TodoItem } from "../TodoItem";
+import { TodoList } from "../TodoList";
+import { CreateTodoButton } from "../CreateTodoButton"
 
 // const todos = [
 //   {name: 'Training', completed: true},
